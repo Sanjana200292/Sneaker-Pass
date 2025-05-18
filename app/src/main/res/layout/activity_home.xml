@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="188dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/image" />
+
+
+            <SearchView
+                android:id="@+id/searchView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:queryHint="Search Here"
+                android:background="@drawable/background"
+                android:backgroundTint="@color/gray"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:iconifiedByDefault="false"
+                android:layout_alignParentTop="true"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="500dp"
+                    android:layout_height="240dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="-2dp"
+                    android:layout_marginBottom="-2dp"
+                    android:scaleType="center"
+                    app:srcCompat="@drawable/group_12" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="150dp"
+                    android:backgroundTint="@color/orange"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    android:text="Shop Now" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:layout_marginStart="30dp"
+                android:text="@string/explore" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:onClick="onclick"
+                    android:layout_marginStart="20dp"
+                    app:srcCompat="@drawable/brand2"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="-10dp"
+                    android:layout_marginTop="-15dp"
+                    app:srcCompat="@drawable/brand3" />
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="100dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/brand4"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="161dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-20dp"
+                    android:layout_marginTop="-22dp"
+                    app:srcCompat="@drawable/brand1" />
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:layout_marginStart="30dp"
+                android:text="@string/top" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="262dp"
+                    android:layout_height="193dp"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:layout_marginStart="-10dp"
+                    android:layout_marginTop="-30dp"
+                    app:srcCompat="@drawable/shoe1" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="193dp"
+                    android:layout_height="194dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="-30dp"
+                    app:srcCompat="@drawable/shoes8" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="55dp"
+                    android:layout_marginTop="-7dp"
+                    android:text="@string/shoe1"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="-7dp"
+                    android:text="@string/shoe8"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            app:itemRippleColor="@color/orange"
+            app:itemTextColor="@color/orange"
+            android:background="@color/gray"
+            android:layout_height="wrap_content"
+            app:menu="@menu/navigation" />
+
+    </LinearLayout>
+
+</LinearLayout>

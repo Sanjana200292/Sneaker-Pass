@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Onboard1">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="80dp"
+        android:scaleType="center"
+        app:srcCompat="@drawable/onboard1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Select your Sneaker"
+        android:textColor="@color/black"
+        android:textSize="38dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="18dp"
+        android:textColor="@color/black"
+        android:text="List down collection of sneakers \nin one place on sneakerpass"
+        android:gravity="center"
+        android:textSize="18dp"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/orange"
+        android:layout_marginTop="35dp"
+
+        android:textSize="20dp"
+        android:text="Next"
+        android:textColor="@color/white"
+        />
+
+
+</LinearLayout>

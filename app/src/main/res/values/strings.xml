@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Sneaker pass</string>
+    <string name="already">Already have an account?</string>
+    <string name="explore">Explore our catagories</string>
+    <string name="top">Top pick for you</string>
+    <string name="shoe1">Nike Jordan1\n$180.00</string>
+    <string name="shoe8">Nike Air Force 1\n$150.00</string>
+    <string name="jord1">Nike Jordan 1\n$160.00</string>
+    <string name="jord2">Nike Jordan 1\n$170.00</string>
+    <string name="jord3">Nike Jordan 1\n$150.00</string>
+    <string name="air">Nike Air Force 1\n$150.00</string>
+    <string name="home">Home</string>
+    <string name="account">Account</string>
+    <string name="cart">Cart</string>
+    <string name="pay">Pay Here</string>
+    <string name="more">More</string>
+    <string name="detail">Inspired by original jordan 1.
+        the jordan 1 mid offers fans a chance to follow in MJS footstep.
+        fresh color time the clean classic material.
+        imbuing modernity in to the classic design.</string>
+    <string name="chose">Choose Color</string>
+    <string name="address">Delivery Address</string>
+    <string name="add">Ex: 1st lane isurupura road malabe</string>
+    <string name="my">My Profile</string>
+    <string name="name">Sanjana Deshan</string>
+    <string name="email">Sanjanadeshan@gmail.com</string>
+    <string name="country">Srilanaka</string>
+    <string name="prof">Profile Detail</string>
+    <string name="change">Change Password</string>
+    <string name="sign">Sign Out</string>
+    <string name="old">Old password</string>
+    <string name="newp">New password</string>
+    <string name="confrm">Confirm password</string>
+    <string name="success">Payment Successful!</string>
+    <string name="shop">Thank for you shoppig with us</string>
+
+
+</resources>

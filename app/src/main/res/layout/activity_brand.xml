@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Brand">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="188dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    app:srcCompat="@drawable/image" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="58dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:onClick="click"
+                    android:clickable="true"
+                    android:layout_marginTop="30dp"
+                    android:text="Back"
+                    android:textColor="@color/orange"
+                    android:textSize="20dp" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="334dp"
+                    android:layout_height="194dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="-80dp"
+                    app:srcCompat="@drawable/nik" />
+
+                <SearchView
+                    android:id="@+id/searchView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:queryHint="Search Here"
+                    android:background="@drawable/background"
+                    android:backgroundTint="@color/gray"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="-35dp"
+                    android:layout_gravity="center"
+                    android:iconifiedByDefault="false"
+                    android:layout_alignParentTop="true"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/imageVie001"
+                        android:layout_width="204dp"
+                        android:layout_height="193dp"
+                        android:clickable="true"
+                        android:onClick="Click"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="-30dp"
+                        app:srcCompat="@drawable/shoe2" />
+
+                    <ImageView
+                        android:id="@+id/imageV01"
+                        android:layout_width="191dp"
+                        android:layout_height="193dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="-30dp"
+                        app:srcCompat="@drawable/shoe3" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/textVie101"
+                        android:layout_width="177dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="55dp"
+                        android:layout_marginTop="-7dp"
+                        android:text="@string/shoe8"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/textView199"
+                        android:layout_width="177dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="55dp"
+                        android:layout_marginTop="-7dp"
+                        android:text="@string/jord1"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/imageVie111"
+                        android:layout_width="204dp"
+                        android:layout_height="193dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="-30dp"
+                        app:srcCompat="@drawable/shoe_10" />
+
+                    <ImageView
+                        android:id="@+id/imageV109"
+                        android:layout_width="191dp"
+                        android:layout_height="193dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="-30dp"
+                        app:srcCompat="@drawable/shoe_11" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/textV"
+                        android:layout_width="177dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="55dp"
+                        android:layout_marginTop="-7dp"
+                        android:text="@string/shoe8"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/textView100"
+                        android:layout_width="177dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="55dp"
+                        android:layout_marginTop="-7dp"
+                        android:text="@string/jord1"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/image100"
+                        android:layout_width="204dp"
+                        android:layout_height="193dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="-30dp"
+                        app:srcCompat="@drawable/shoes8" />
+
+                    <ImageView
+                        android:id="@+id/image001"
+                        android:layout_width="191dp"
+                        android:layout_height="193dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="-30dp"
+                        app:srcCompat="@drawable/shoe_8" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/textV991"
+                        android:layout_width="177dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="55dp"
+                        android:layout_marginTop="-7dp"
+                        android:text="@string/shoe8"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/textVie999"
+                        android:layout_width="177dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="55dp"
+                        android:layout_marginTop="-7dp"
+                        android:text="@string/jord1"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/imageVielk"
+                        android:layout_width="204dp"
+                        android:layout_height="193dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="-30dp"
+                        app:srcCompat="@drawable/shoe4" />
+
+                    <ImageView
+                        android:id="@+id/imageVimn"
+                        android:layout_width="191dp"
+                        android:layout_height="193dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="-30dp"
+                        app:srcCompat="@drawable/shoe5" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="177dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="55dp"
+                        android:layout_marginTop="-7dp"
+                        android:text="@string/jord2"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/textVi3"
+                        android:layout_width="177dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="55dp"
+                        android:layout_marginTop="-7dp"
+                        android:text="@string/air"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="204dp"
+                        android:layout_height="193dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="-30dp"
+                        app:srcCompat="@drawable/shoe7" />
+
+                    <ImageView
+                        android:id="@+id/imageVids"
+                        android:layout_width="191dp"
+                        android:layout_height="193dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="-30dp"
+                        app:srcCompat="@drawable/shoe6" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/text"
+                        android:layout_width="177dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="55dp"
+                        android:layout_marginTop="-7dp"
+                        android:text="@string/jord3"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/textVitr"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="55dp"
+                        android:layout_marginTop="-7dp"
+                        android:text="@string/air"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            app:itemRippleColor="@color/orange"
+            app:itemTextColor="@color/orange"
+            android:background="@color/gray"
+            android:layout_height="wrap_content"
+            app:menu="@menu/navigation" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
